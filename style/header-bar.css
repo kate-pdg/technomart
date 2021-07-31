@@ -1,0 +1,65 @@
+.header-bar {
+    background-color: var(--bar-darker);
+}
+
+.header-bar__container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+  
+.header-bar__buttons {
+  display: flex;
+  margin-left: auto;
+  flex-grow: 0;
+}
+
+.header-bar__button {
+  position: relative;
+  padding: 9px 0;
+  display: flex;
+  justify-content: center;
+  white-space: pre;
+  text-decoration: none;
+  color: inherit;
+}
+
+.header-bar__button:not(.header-bar__button--order) {
+  width: min-content;
+  padding-left: 48px;
+  padding-right: 26px;
+}
+
+.header-bar__button:focus {
+  background-color: var(--bar-focus);
+  color: var(--white-opacity05);
+}
+
+.header-bar__icon {
+  position: absolute;
+  fill: white;
+  opacity: 0.3;
+  top: 13px;
+  left: 25px;
+}
+
+.header-bar__button:hover svg {
+  opacity: 1;
+}
+
+.header-bar__button:focus svg {
+  opacity: 0.3;
+}
+
+.header-bar__button--order {
+  width: 150px;
+  background-color: var(--order-btn);
+}
+
+.header-bar__button--order:hover {
+  background-color: var(--order-btn-hover);
+}
+
+.header-bar__button--order:focus {
+  background-color: var(--order-btn);
+}

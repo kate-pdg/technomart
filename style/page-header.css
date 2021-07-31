@@ -1,0 +1,15 @@
+.page-header__logo {
+    width: 220px;
+    padding: 12px 0;
+    display: flex;
+    flex-grow: 0;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--button-basic);
+    box-shadow: 0 5px 0 0 var(--button-shadow);
+  }
+
+  .page-header__logo:focus {
+    background-color: var(--button-dark);    
+    box-shadow: 0 5px 0 0 var(--button-dark-shadow);
+  }
