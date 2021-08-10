@@ -1,0 +1,25 @@
+.header-nav__list {
+  margin: 0;
+  padding: 0 29px;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;  
+  background-color: var(--primary-bar);
+  box-shadow: 0 5px 0 0 var(--bar-darker);
+}
+
+.header-nav__link {
+  display: block;
+  padding: 16px 24px 15px 24px;
+  color: var(--white);
+}
+
+.header-nav__link:hover {
+  background-color: var(--bar-darker);
+}
+
+.header-nav__link:focus {
+  color: var(--white-opacity05);
+  background-color: var(--bar-focus);
+}

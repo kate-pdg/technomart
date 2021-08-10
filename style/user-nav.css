@@ -1,0 +1,46 @@
+.user-nav {
+  display: flex;
+  align-items: flex-start;
+}
+
+.user-nav__link {
+  display: block;
+  background-color: var(--white);
+  color: var(--black);
+  font-size: 21px;
+  line-height: 21px;
+}
+
+.user-nav__login-icon {
+  position: absolute;
+  top: 14px;
+  left: 18px;
+  fill: var(--primary-icon);
+}
+
+.user-nav__link:hover {
+  color: var(--main-logo);
+}
+
+.user-nav__link:hover .user-nav__login-icon {
+  fill: var(--icon-hover);
+}
+
+.user-nav__link:focus {
+  color: var(--primary-icon);
+}
+
+.user-nav__link:focus .user-nav__login-icon {
+  fill: var(--primary-icon);
+}
+
+.user-nav__link--login {
+  padding: 12px 27px;
+  padding-left: 45px;
+  margin-right: 10px;
+  position: relative;
+}
+
+.user-nav__link--registration {
+  padding: 12px 24px;
+}

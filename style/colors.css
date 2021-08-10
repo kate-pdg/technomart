@@ -1,27 +1,34 @@
 
 :root {
+    --white: #ffffff;
+    --black: #000000;  
     --bar-darker: #293449;
     --bar-focus: #161D29;
     --button-basic: #ee3643;
+    --main-logo: #ee3643;
     --button-dark: #ba2732;
     --button-shadow: #b52933;
     --button-dark-shadow: #8e1821;
     --order-btn: #63A63E;
     --order-btn-hover: #5FBB2D;
-
+    --background-light: #F1F5F7;
+  
+    --basic-title-dark: #32425C;
+    --primary-bar: #32425c;
+    --bar-focus: #1D2739;  
     --special-dark-red: #CA2C37;
+
+    
+    --primary-icon: #c5c5c5;
+    --icon-hover: #3D546F;
 
     /* opacity */
     
     --white-opacity05: rgba(255, 255, 255, 0.5);
 
 
-    --basic-blue: #32425C;
     --basic-blue-shadow: #405069;
-    --special-blue: #1D2739;  
-    --basic-white: #FFFFFF;
     --basic-extra-light: #F3F7F9;
-    --basic-black: #000000;  
     --basic-light-yellow: #FFD180;
     --basic-green-shadow: #367315;
     --basic-yellow: #FFBF47;
@@ -31,13 +38,10 @@
     --basic-beige: #F7F3EC;
     --range-bar-green: #00cb75;
     --special-dark-green: #518534;
-    --special-light-grey: #C5C5C5;
     --special-grey: #A9A9A9;  
-    --special-light: #F1F5F7;
     --special-dark-grey: #B5B5B5;
     --special-dark-blue: #212A3A;
     --special-light-beige: #F9F5F0;
-    --dark-hover-icon: #3D546F;
     --light-modal-button-wrap: #F4F4F4;
     --basic-dark-toggle: #ABABAB;
     --basic-scale: #D7DCDE;  

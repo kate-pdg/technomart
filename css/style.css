@@ -8,7 +8,10 @@
 @import "../style/visually-hidden.css";
 @import "../style/technomart-logo.css";
 @import "../style/header-bar.css";
+@import "../style/header-content.css";
+@import "../style/user-nav.css";
 @import "../style/search.css";
+@import "../style/header-nav.css";
 @import "../style/new.css";
 
 
@@ -41,145 +44,6 @@
 
 .inner-page .main-header {
   margin-bottom: 21px;
-}
-
-
-/* Main header navigation */
-
-.page-header {
-  padding-bottom: 60px;
-  background-color: var(--special-light);
-}
-
-/* Main header content */
-
-.main-header-content {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  padding-top: 40px;
-  padding-bottom: 39px;
-}
-
-.main-header-description {
-  width: 240px;
-  margin: 0;
-  margin-top: 2px;
-  padding-left: 30px;
-  margin-right: 80px;
-  font-size: 16px;
-  font-style: italic;
-  line-height: 24px;
-  color: var(--basic-red);
-}
-
-.main-header-contacts {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  padding-top: 6px;
-  width: 270px;
-  align-items: center;
-  margin-right: 10px;
-}
-
-.main-header-contacts a {
-  display: block;
-}
-
-.header-phone {
-  position: relative;
-  font-size: 21px;
-  line-height: 30px;
-  font-weight: bold;
-  color: var(--basic-red);
-  border: 3px solid var(--basic-white);
-  padding: 4px 42px 5px 71px;
-}
-
-.header-phone::before {
-  content: "";
-  position: absolute;
-  width: 19px;
-  height: 19px;
-  top: 10px;
-  left: 36px;
-  background-image: url("../img/header-icon/icon-phone.svg");
-  background-repeat: no-repeat;
-  background-position: 0 0;
-}
-
-.header-address {
-  font-size: 14px;
-  color: var(--basic-blue);
-  text-align: left;
-  margin: 0;
-  margin-top: 4px;
-}
-
-/* user navigation  */
-
-.user-navigation {
-  display: flex;
-  flex-wrap: wrap;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  padding-top: 5px;
-  margin-left: auto;
-  margin-bottom: auto;
-  width: 305px;
-  justify-content: flex-end;
-}
-
-.user-navigation a {
-  display: block;
-  color: var(--basic-black);
-}
-
-.user-link a {
-  font-size: 21px;
-  line-height: 21px;
-  background-color: var(--basic-white);
-}
-
-/* 
-.user-link:last-of-type {
-    margin-right: 0px;
-} */
-
-.user-link:hover path {
-  fill: var(--dark-hover-icon);
-}
-
-.user-link:focus path, .user-link:active path {
-  fill: var(--special-light-grey);
-}
-
-.user-link a:hover {
-  color: var(--basic-red);
-}
-
-.user-link a:focus {
-  color: var(--special-light-grey);
-}
-
-.login-link {
-  position: relative;
-  padding: 12px 27px 12px 45px;
-  margin-right: 10px;
-}
-
-.login-link svg {
-  position: absolute;
-  width: 20px;
-  height: 17px;
-  top: 14px;
-  left: 19px;
-}
-
-.registration-link {
-  padding: 12px 24px;
 }
 
 /* user navigation авторизованный пользователь */
@@ -263,41 +127,6 @@
 
 .authorized-user-item:last-child::after {
   display: none;
-}
-
-/* Main header navigation */
-
-.main-header-navigation {
-  background-color: var(--basic-blue);
-}
-
-.main-header-navigation a {
-  color: inherit;
-}
-
-.main-header-navigation ul {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  border-bottom: 5px solid var(--bar-darker);
-}
-
-.main-header-navigation a {
-  display: block;
-  padding: 16px 28px 15px 28px;
-}
-
-.main-header-navigation a:hover {
-  background-color: var(--bar-darker);
-}
-
-.main-header-navigation a:focus {
-  color: var(--basic-white-transparent);
-  background-color: var(--extradark-blue);
 }
 
 /* Features */
