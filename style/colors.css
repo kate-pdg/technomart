@@ -16,8 +16,8 @@
     --basic-title-dark: #32425C;
     --primary-bar: #32425c;
     --bar-focus: #1D2739;  
-    --special-dark-red: #CA2C37;
 
+    --button-hovered: #ca2c37;
     
     --primary-icon: #c5c5c5;
     --icon-hover: #3D546F;
@@ -25,16 +25,20 @@
     /* opacity */
     
     --white-opacity05: rgba(255, 255, 255, 0.5);
+    --white-opacity03: rgba(255, 255, 255, 0.3);
+    --black-opacity025: rgba(0, 0, 0, 0.25);
 
+    /* features */
+    
+    --yellow: #ffbf47;
+    --lightblue: #3bbce3;
+    --pink: #dc91d8;
+    --green: #8ed78f;
 
     --basic-blue-shadow: #405069;
     --basic-extra-light: #F3F7F9;
     --basic-light-yellow: #FFD180;
     --basic-green-shadow: #367315;
-    --basic-yellow: #FFBF47;
-    --basic-skyblue: #3BBCE3;
-    --basic-light-purple: #DC91D8;
-    --basic-extra-green: #8ED78F;
     --basic-beige: #F7F3EC;
     --range-bar-green: #00cb75;
     --special-dark-green: #518534;
@@ -53,8 +57,6 @@
     --basic-black-transparent: rgba(0, 0, 0, 0.3);
     --light-yellow-focus: rgba(255, 209, 128, 0.5);
     --special-light-focus: rgba(241, 245, 247, 0.5);
-    --slider-shadow: rgba(0, 0, 0, 0.25);
-    --basic-grey-button: rgba(255, 255, 255, 0.3);
     --grey-button-focus: rgba(169, 169, 169, 0.3);
     --grey-button-hover: rgba(197, 197, 197, 0.3);
   }

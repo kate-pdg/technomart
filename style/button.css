@@ -1,0 +1,10 @@
+.button {
+  display: inline-block;
+  vertical-align: middle;
+  font: inherit;
+  font-size: 14px;
+  line-height: 18px;
+  border: none;
+  background: none;
+  text-align: center;
+}

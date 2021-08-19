@@ -1,0 +1,15 @@
+.features-slider__slide-title {
+  margin: 0;
+  margin-bottom: 6px;
+  color: var(--white);
+  font-size: 36px;
+  line-height: 36px;
+  font-weight: 700px;
+  text-transform: uppercase;
+}
+
+.features-slider__slide-caption {
+  margin: 0;
+  color: var(--white);
+  font-size: 18px;
+}

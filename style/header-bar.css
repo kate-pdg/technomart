@@ -21,7 +21,7 @@
   justify-content: center;
   white-space: pre;
   text-decoration: none;
-  color: inherit;
+  color: var(--white);
 }
 
 .header-bar__button:not(.header-bar__button--order) {

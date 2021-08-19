@@ -98,48 +98,54 @@
   </header>
   <main>
     <h1 class="visually-hidden">Магазин строительных материалов "Техномарт"</h1>
-    <section class="features-section">
-      <div class="container features-container">
-        <div class="features-item">
-          <h3 class="features-item-title">Материалы</h3>
-          <span class="new">new</span>
-          <a class="button features-button" href="#">На любой вкус</a>
+    <section class="features">
+      <div class="features__grid container">
+        <div class="features__item features__item--materials">
+          <h3 class="features__title">Материалы</h3>
+          <a class="features__button" href="#">На любой вкус</a>
         </div>
-        <div class="features-item">
-          <h3 class="features-item-title">Инструмент</h3>
-          <a class="button features-button" href="#">На все случаи</a>
+        <div class="features__item features__item--tool">
+          <h3 class="features__title">Инструмент</h3>
+          <a href="" class="features__button">На все случаи</a>
         </div>
-        <div class="features-item">
-          <h3 class="features-item-title">Техника</h3>
-          <a class="button features-button" href="#">Для стройки</a>
+        <div class="features__item features__item--technique">
+          <h3 class="features__title">Техника</h3>
+          <a href="" class="features__button">Для стройки</a>
         </div>
-        <div class="features-item">
-          <h3 class="features-item-title">Скидки 50%</h3>
-          <a class="button features-button" href="#">На 350 товаров</a>
+        <div class="features__item features__item--sale">
+          <h3 class="features__title">Скидки 50%</h3>
+          <a href="" class="features__button">На 350 товаров</a>
         </div>
-        <div class="features-item">
-          <h3 class="features-item-title">Доставка</h3>
-          <a class="button features-button" href="#">Бесплатно</a>
+        <div class="features__item features__item--delivery">
+          <h3 class="features__title">Доставка</h3>
+          <a href="" class="features__button">Бесплатно</a>
         </div>
         <div class="slider">
-          <ul class="slider-list">
-            <li class="slide-current slider-item-perforators slide">
-              <h3 class="slide-title">Перфораторы</h3>
-              <p>Настоящие мужские игрушки</p>
-              <a class="button open-catalog-button" href="catalog.html">Открыть каталог</a>
-            </li>
-            <li class="slider-item-drills slide is-hidden">
-              <h3 class="slide-title">Дрели</h3>
-              <p>Соседям на радость!</p>
-              <a class="button open-catalog-button" href="catalog.html">Открыть каталог</a>
-            </li>
-          </ul>
-          <div class="slider-controls">
-            <button type="button" aria-label="Первый слайд"></button>
-            <button class="current" type="button" aria-label="Второй слайд"></button>
+          <input type="radio" name="slides" id="slide1" checked>
+          <input type="radio" name="slides" id="slide2">
+          <div class="slider__container">
+            <div class="slider__overflow">
+              <div class="slider__slide slider__slide-perforators slider__slide--current">
+                <h3 class="features-slider__slide-title">Перфораторы</h3>
+                <p class="features-slider__slide-caption">Настоящие мужские игрушки</p>
+              </div>
+              <div class="slider__slide slider__slide-drills">
+                <h3 class="features-slider__slide-title">Дрели</h3>
+                <p class="features-slider__slide-caption">Соседям на радость!</p>
+              </div>
+            </div>
           </div>
-          <button class="slider-arrows slider-prev" type="button" aria-label="Следующий слайд"></button>
-          <button class="slider-arrows slider-next" type="button" aria-label="Предыдущий слайд"></button>
+          <div class="slider__side-controls">
+            <label class="slider__arrow slider__slide1-prev" for="slide2"></label>
+            <label class="slider__arrow slider__slide1-next" for="slide1"></label>
+            <label class="slider__arrow slider__slide2-prev" for="slide1"></label>
+            <label class="slider__arrow slider__slide2-next" for="slide2"></label>
+          </div>
+          <div class="slider__controls">
+            <label class="slider__control slider__control1 slider__control--current" for="slide1"></label>
+            <label class="slider__control slider__control2" for="slide2"></label>
+          </div>          
+          <a class="button features__slide-button" href="catalog.html">Открыть каталог</a>
         </div>
       </div>
     </section>

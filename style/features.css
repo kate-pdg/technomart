@@ -1,0 +1,104 @@
+.features__item {
+  background-color: var(--yellow);
+  width: 300px;
+  padding: 21px 23px 20px 23px;
+}
+
+.features__item--materials {
+  background-image: url("../img/materials-icon.svg");
+  background-repeat: no-repeat;
+  background-position: top 31px right 43px;
+}
+
+.features__item--tool {
+  background-color: var(--lightblue);  
+  background-image: url("../img/tools-icon.svg");
+  background-repeat: no-repeat;
+  background-position: top 34px right 31px;
+}
+
+.features__item--technique {
+  background-color: var(--pink);
+  background-image: url("../img/technique-icon.svg");
+  background-repeat: no-repeat;
+  background-position: top 31px right 31px;
+}
+
+.features__item--sale {
+  background-color: var(--green);
+  background-image: url("../img/sale-icon.svg");
+  background-repeat: no-repeat;
+  background-position: top 26px right 45px;
+}
+
+.features__item--delivery {
+  background-image: url("../img/delivery-icon.svg");
+  background-repeat: no-repeat;
+  background-position: top 32px right 31px;
+
+  grid-column: 3/4;
+  grid-row: 3/4;
+}
+
+.features__title {
+  margin: 0;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 700;
+  color: var(--white);
+  margin-bottom: 14px;
+}
+
+.features__button {
+  display: block;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 14px;
+  line-height: 18px;
+  color: var(--white);
+  background-color: var(--white-opacity03);
+  width: 135px;
+  padding: 10px;
+  --button-hovered: rgba(197, 197, 197, 0.3);
+  --button-dark: rgba(169, 169, 169, 0.3);
+  transition: background-color 0.4s ease;
+}
+
+.features__button:hover {
+  background-color: var(--button-hovered);
+}
+
+.features__button:active {
+  background-color: var(--button-dark);
+}
+
+.features__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 300px);
+  grid-template-rows: repeat(3, 123px);
+  gap: 20px;
+
+  padding-top: 59px;
+  padding-bottom: 40px;
+}
+
+.features__slide-button {
+  position: relative;
+  bottom: 65px;
+  left: 24px;
+  width: 192px;
+  padding: 10px;
+  text-transform: uppercase;
+  color: var(--white);
+  background-color: var(--main-logo);
+  margin-top: auto;
+  transition: background-color 0.4s ease;
+}
+
+.features__slide-button:hover {
+  background-color: var(--button-hovered);
+}
+
+.features__slide-button:active {
+  background-color: var(--button-dark);
+}

@@ -1,0 +1,130 @@
+.slider {
+  position: relative;
+  width: 620px;
+  height: 266px;
+  
+  grid-column: 1/3;
+  grid-row: 2/4;
+}
+
+.slider > input {
+  display: none;
+}
+
+.slider__container {
+  overflow: hidden;
+  position: relative;
+}
+
+.slider__overflow {
+  display: flex;
+  flex-direction: row;
+  width: 620px;
+}
+
+.slider__slide {
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  padding: 23px 24px 27px 24px;
+  width: 620px;
+  height: 266px;
+  background-color: #a78e89;
+  box-shadow: inset 0 104px var(--black-opacity025);
+}
+
+.slider__slide-perforators {
+  background-image: url("../img/perforators-slide.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.slider__slide-drills {
+  background-image: url("../img/drills-slide.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;  
+}
+
+#slide1:checked ~ .slider__container .slider__overflow {  
+  transform: translateX(0);
+  transition: all 0.5s;
+}
+
+#slide2:checked ~ .slider__container .slider__overflow {  
+  transform: translateX(-620px);
+  transition: all 0.5s;
+}
+
+.slider__arrow {
+  position: absolute;
+  display: none;
+  background-image: url("../img/slider-arrow.svg");
+  width: 22px;
+  height: 40px;
+  top: 46%;
+  cursor: pointer;
+}
+
+#slide1:checked ~ .slider__side-controls .slider__slide1-prev,
+#slide2:checked ~ .slider__side-controls .slider__slide2-prev {
+  display: block;
+  left: 24px;
+}
+
+#slide1:checked ~ .slider__side-controls .slider__slide2-next,
+#slide2:checked ~ .slider__side-controls .slider__slide1-next {
+  right: 20px;
+  transform: rotate(180deg);
+  display: block;
+}
+
+.slider__controls {
+  position: absolute;
+  bottom: 36px;
+  left: 47.7%;
+  display: flex;
+  flex-direction: row;
+}
+
+.slider__control {
+  cursor: pointer;
+  width: 10px;
+  height: 10px;
+  margin-right: 10px;
+  background-color: var(--white);
+  border: 2px solid var(--white);
+  border-radius: 50%;
+}
+
+#slide1:checked ~ .slider__controls .slider__control1 {  
+  background-color: var(--main-logo);
+}
+
+#slide2:checked ~ .slider__controls .slider__control2 {  
+  background-color: var(--main-logo);
+}
+
+/* 
+
+.slider-controls .current {
+  background-color: var(--basic-red);
+  border: 2px solid var(--basic-white);
+}
+
+.slider-arrows {
+  position: absolute;
+  top: 122px;
+  width: 22px;
+  height: 40px;
+  background-color: transparent;
+}
+
+.slider-prev {
+  background-image: url("../img/decorate/slider-icon-left.svg");
+  left: 24px;
+}
+
+.slider-next {
+  background-image: url("../img/decorate/slider-icon-right.svg");
+  right: 20px;
+} */

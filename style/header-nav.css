@@ -1,6 +1,6 @@
 .header-nav__list {
   margin: 0;
-  padding: 0 29px;
+  padding: 0 25px;
   list-style: none;
   display: flex;
   justify-content: space-between;
@@ -11,8 +11,9 @@
 
 .header-nav__link {
   display: block;
-  padding: 16px 24px 15px 24px;
+  padding: 16px 28px 15px 28px;
   color: var(--white);
+  transition: background-color 0.5s ease;
 }
 
 .header-nav__link:hover {
