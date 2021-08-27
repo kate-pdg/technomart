@@ -1,4 +1,11 @@
+.features {
+  padding-top: 59px;
+  padding-bottom: 59px;
+}
+
 .features__item {
+  position: relative;
+  overflow: hidden;
   background-color: var(--yellow);
   width: 300px;
   padding: 21px 23px 20px 23px;
@@ -77,9 +84,6 @@
   grid-template-columns: repeat(3, 300px);
   grid-template-rows: repeat(3, 123px);
   gap: 20px;
-
-  padding-top: 59px;
-  padding-bottom: 40px;
 }
 
 .features__slide-button {

@@ -1,0 +1,63 @@
+.item-actions {
+  position: absolute;
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Cuprum", Arial, sans-serif;
+  background-color: var(--white);
+  width: 218px;
+  height: 159px;
+  text-align: center;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.popular-items__item:hover .item-actions {
+  display: flex;
+}
+
+.item-actions__buy-btn {
+  width: 135px;
+  display: inline-block;
+  vertical-align: middle;
+  background-color: var(--order-btn);
+  color: var(--white);
+  text-transform: uppercase;
+  padding: 10px;
+  padding-left: 23px;
+  box-shadow: inset 0px -3px 0px var(--basic-green-shadow);
+  border-radius: 2px;
+  background-image: url("../img/decorate/icon-cart.svg");
+  background-repeat: no-repeat;
+  background-position: 30px 45%;
+  margin-bottom: 10px;
+}
+
+.item-actions__buy-btn:hover {
+  background-color: var(--order-btn-hover);
+}
+
+.item-actions__buy-btn:active {
+  background-color: var(--special-dark-green);
+}
+
+.item-actions__bookmarks-btn {
+  width: 135px;
+  display: inline-block;
+  vertical-align: middle;
+  background-color: var(--white);
+  color: var(--basic-title-dark);
+  text-transform: uppercase;
+  padding: 7px 10px;
+  border: 3px solid var(--order-btn);
+  border-radius: 2px;
+}
+
+.item-actions__bookmarks-btn:hover {
+  border: 3px solid var(--basic-title-dark);
+}
+
+.item-actions__bookmarks-btn:active {
+  opacity: 0.5;
+}

@@ -1,0 +1,19 @@
+.badge-new {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 30px;
+  position: absolute;
+  top: 8px;
+  right: -27px;
+  color: var(--white);
+  background-color: var(--main-logo);
+  font-family: "Cuprum", Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+  transform: rotate(45deg);
+  z-index: 2;
+  }

@@ -103,28 +103,3 @@
 #slide2:checked ~ .slider__controls .slider__control2 {  
   background-color: var(--main-logo);
 }
-
-/* 
-
-.slider-controls .current {
-  background-color: var(--basic-red);
-  border: 2px solid var(--basic-white);
-}
-
-.slider-arrows {
-  position: absolute;
-  top: 122px;
-  width: 22px;
-  height: 40px;
-  background-color: transparent;
-}
-
-.slider-prev {
-  background-image: url("../img/decorate/slider-icon-left.svg");
-  left: 24px;
-}
-
-.slider-next {
-  background-image: url("../img/decorate/slider-icon-right.svg");
-  right: 20px;
-} */

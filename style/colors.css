@@ -13,7 +13,7 @@
     --order-btn-hover: #5FBB2D;
     --background-light: #F1F5F7;
   
-    --basic-title-dark: #32425C;
+    --basic-title-dark: #32425c;
     --primary-bar: #32425c;
     --bar-focus: #1D2739;  
 
@@ -35,6 +35,18 @@
     --pink: #dc91d8;
     --green: #8ed78f;
 
+    /* section */
+
+    --section-heading: #f9f5f0;
+    --section-title: #32425c;
+    --section-button: #ee3643;
+    --section-button-hovered: #ca2c37;
+    --section-button-active: #ba2732;
+
+    /* item */
+
+    --item-border: #eaeaea;
+
     --basic-blue-shadow: #405069;
     --basic-extra-light: #F3F7F9;
     --basic-light-yellow: #FFD180;
@@ -45,12 +57,10 @@
     --special-grey: #A9A9A9;  
     --special-dark-grey: #B5B5B5;
     --special-dark-blue: #212A3A;
-    --special-light-beige: #F9F5F0;
     --light-modal-button-wrap: #F4F4F4;
     --basic-dark-toggle: #ABABAB;
     --basic-scale: #D7DCDE;  
     --basic-light-border: #E5E5E5;
-    --basic-article-border: #EAEAEA;
     --basic-shadow-toggle: rgba(171, 171, 171, 0.3);
     --basic-dark-shadow: rgba(0, 0, 0, 0.5);
     --basic-grey-shadow: rgba(0, 0, 0, 0.2);

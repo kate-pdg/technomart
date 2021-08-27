@@ -1,0 +1,35 @@
+.section__heading {
+  display: flex;
+  align-items: center;
+  padding: 25px 15px 26px 28px;
+  margin-bottom: 20px;
+  background-color: var(--section-heading);
+}
+
+.section__title {
+  margin: 0;
+  width: auto;
+  color: var(--section-title);
+  font-family: "Cuprum", Arial, sans-serif;
+  font-size: 30px;
+  line-height: 30px;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.section__button {
+  width: 192px;
+  padding: 10px;
+  margin-left: auto;
+  background-color: var(--section-button);
+  color: var(--white);
+  text-transform: uppercase;
+}
+
+.section__button:hover {
+  background-color: var(--section-button-hovered);
+}
+
+.section__button:active {
+  background-color: var(--section-button-active);  
+}
